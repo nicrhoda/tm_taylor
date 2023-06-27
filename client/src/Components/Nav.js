@@ -6,7 +6,7 @@ import Services from "./Services";
 
 export default function Nav() {
     return (
-        <Tabs defaultActiveKey="home" id="tabMenu" className="mb-3">
+        <Tabs defaultActiveKey="home" id="tabMenu" className="mb-3" justify>
             <Tab eventKey="home" title="Home">
                 <Home />
             </Tab>
